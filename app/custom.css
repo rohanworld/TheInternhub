@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Sections headings */
+
+.font-style-0 {
+    color: #0d47a1;
+    font-weight: 700;
+    font-size: 22px;
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+    font-optical-sizing: auto;
+    letter-spacing: 0.2px;
+    font-style: normal;
+}
+
+
+/* Categories Names, Forums Name */
+
+.font-style-list {
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+    font-optical-sizing: auto;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+}
+
+.font-style-1-events {
+    /* headline: headlines, titles */
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.font-style-1-subtitle-events {
+    /* sub-headlines  */
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+/* forum description */
+
+.font-style-1-descriptions::first-letter {
+    text-transform: capitalize;
+}
+
+.font-style-1-descriptions {
+    /* font-family: "Plus Jakarta Sans"; */
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.font-style-2 font-dmsans ::first-letter {
+    text-transform: capitalize;
+}
+
+
+/* questions title */
+
+.font-style-2 {
+    /* font-family: "DM Sans", sans-serif; */
+    font-optical-sizing: auto;
+    font-size: 18px;
+    letter-spacing: 0.1px;
+}
+
+
+/* descriptions of questions */
+
+.font-style-3 {
+    /* font-family: "Plus Jakarta Sans"; */
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+
+.font-style-3-vote {
+    /* font-family: "Plus Jakarta Sans"; */
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+}
+
+
+/* event descriptions and elements */
+
+.font-style-4 {
+    font-size: 15px;
+    /* font-family: "DM Sans"; */
+    font-weight: 500;
+    font-style: normal;
+    border-style: none;
+    border-color: #000000;
+}
+
+
+/* username, follow button... */
+
+.font-style-5-username {
+    /* font-family: "DM Sans", sans-serif; */
+    font-optical-sizing: auto;
+    letter-spacing: 0.2px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0d47a1;
+}
+
+
+/* post card */
+
+.font-style-6-post font-jakarta {
+    border-radius: 4px;
+    /* font-family: "Plus Jakarta Sans"; */
+    transition: box-shadow 0.3s ease;
+}
+
+.font-style-6-post:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.expand-content {
+    animation: expand 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes expand {
+    0% {
+        max-height: 20px;
+    }
+    100% {
+        max-height: none;
+    }
+}
+
+
+/* button animations */
+
+button {
+    transition: transform 0.3s ease-in-out;
+    /* font-family: Plus Jakarta Sans; */
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.postvotec {
+    transition: transform 0.3s ease-in-out;
+}
+
+.postvotec:hover {
+    transform: scale(1.1);
+}
+
+.font-style-7-hint {
+    /* hints below the input fields.   */
+    /* font-family: "Plus Jakarta Sans"; */
+}
+
+a {
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+}
+
+div.absolute {
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+    font-weight: 700;
+    font-style: normal;
+}
+
+p::first-letter {
+    text-transform: capitalize;
+}
+
+div p p {
+    /* font-family: Plus Jakarta Sans; */
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+td.px-4.py-2::first-letter {
+    text-transform: capitalize;
+}
+
+td.px-4.py-2 {
+    /* font-family: "DM Sans", sans-serif; */
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.2px;
+}
+
+p {
+    /* font-family: Plus Jakarta Sans; */
+}
+
+label {
+    /* font-family: Plus Jakarta Sans; */
+}
+
+h2 {
+    /* font-family: Plus Jakarta Sans; */
+}
+
+.HomeBanner-description {}
+
+.HomeBanner-heading {}
+
+
+/*Events Page Custom Added*/
